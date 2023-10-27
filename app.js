@@ -17,8 +17,8 @@ const initializeDBAndServer = async () => {
       filename: dbPath,
       driver: sqlite3.Database,
     });
-    app.listen(3000, () => {
-      console.log("Server Running at http://localhost:3000/");
+    app.listen(3212, () => {
+      console.log("Server Running at http://localhost:3212/");
     });
   } catch (e) {
     console.log(`DB Error: ${e.message}`);
